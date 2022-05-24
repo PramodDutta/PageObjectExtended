@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.w2a.zoho.ExtentListeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.w2a.zoho.testcases.ValidateCRMTest">
+        <methods>
+          <include name="setUpFramework"/>
+          <include name="tearDown"/>
+          <include name="validateCRMTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.w2a.zoho.testcases.ValidateCRMTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109440" started-at="2018-06-13T18:21:23Z" finished-at="2018-06-13T18:23:12Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="63125" started-at="2018-06-13T18:21:23Z" finished-at="2018-06-13T18:22:26Z">
+      <class name="com.w2a.zoho.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.zoho.testcases.LoginTest@6acdbdf5]" name="loginTest" duration-ms="33505" started-at="2018-06-13T18:21:23Z" data-provider="masterDP" finished-at="2018-06-13T18:21:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, password=askjdfhjskfs, Runmode=Y, username=trainer@way2automation.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.zoho.testcases.LoginTest@6acdbdf5]" name="loginTest" duration-ms="60932" started-at="2018-06-13T18:21:23Z" data-provider="masterDP" finished-at="2018-06-13T18:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, password=kjasdhfksdf, Runmode=Y, username=java@way2automation.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.zoho.testcases.LoginTest@6acdbdf5]" name="tearDown" is-config="true" duration-ms="90" started-at="2018-06-13T18:21:57Z" finished-at="2018-06-13T18:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.zoho.testcases.LoginTest@6acdbdf5]" name="tearDown" is-config="true" duration-ms="1598" started-at="2018-06-13T18:22:24Z" finished-at="2018-06-13T18:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.zoho.testcases.LoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="109440" started-at="2018-06-13T18:21:23Z" finished-at="2018-06-13T18:23:12Z">
+      <class name="com.w2a.zoho.testcases.ValidateCRMTest">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.w2a.zoho.testcases.ValidateCRMTest@76b0bfab]" name="setUpFramework" is-config="true" duration-ms="43" started-at="2018-06-13T18:21:23Z" finished-at="2018-06-13T18:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="validateCRMTest(java.util.Hashtable)[pri:0, instance:com.w2a.zoho.testcases.ValidateCRMTest@76b0bfab]" name="validateCRMTest" duration-ms="108753" started-at="2018-06-13T18:21:23Z" data-provider="masterDP" finished-at="2018-06-13T18:23:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCRMTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.zoho.testcases.ValidateCRMTest@76b0bfab]" name="tearDown" is-config="true" duration-ms="99" started-at="2018-06-13T18:23:12Z" finished-at="2018-06-13T18:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.zoho.testcases.ValidateCRMTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
